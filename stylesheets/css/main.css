@@ -1,0 +1,62 @@
+body {
+  font-family: Helvetica;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  background-color: black;
+  color: white;
+  padding: 0px 20px 20px 20px
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  width: 75vw;
+  justify-content: left;
+}
+
+.left p {
+  display: inline-block;
+  padding-right: 40px;
+  padding-top: 70px;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  justify-content: right;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #D8D8D8;
+  color: #606060;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 24vw;
+  height: 400px;
+  margin: 4px
+}
+
+
+.inner-box {
+  background-image: url('/Users/jamesnelson/turing/2module/static_challenges/2win/2win_playlist/images/generic-profile-picture.png');
+  background-size: contain;
+  height: 150px;
+}
